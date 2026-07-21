@@ -9,26 +9,26 @@
 class Macbash < Formula
   desc "Check bash scripts for macOS compatibility"
   homepage "https://github.com/hyperi-io/macbash"
-  version "1.5.9"
+  version "1.5.10"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.hyperi.io/macbash/v1.5.9/macbash-darwin-arm64.tar.gz"
-      sha256 "e2b63938e1f746bd77b4804e959ee52b94f3affeb8f417553fc58dc5b0e4b198"
+      url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-darwin-arm64.tar.gz"
+      sha256 "d942e995235352db4d626b1e29cb86dcac3c827775bea8a2891177d6ce92ac18"
     else
-      url "https://downloads.hyperi.io/macbash/v1.5.9/macbash-darwin-amd64.tar.gz"
-      sha256 "f1ccbec9583d93eb6a4279b56a599c95044f0b60c85ea2e073c14a4fe92cd1f4"
+      url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-darwin-amd64.tar.gz"
+      sha256 "691ac6c06c04ae1fb9b9b3887ba808ec30296f7b7ab0dba5f81eabbd1889fb93"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.hyperi.io/macbash/v1.5.9/macbash-linux-arm64.tar.gz"
-      sha256 "7f52dd9bd753c223a36ba81adba51fc9c49afa84100378e7bce9b6b4a5f97fe2"
+      url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-linux-arm64.tar.gz"
+      sha256 "1b50c4ebe511ab37cd27a56846f2a0a9fd270641943ab0fdea69585ec4cc31ff"
     else
-      url "https://downloads.hyperi.io/macbash/v1.5.9/macbash-linux-amd64.tar.gz"
-      sha256 "88fc2b24f52413a3c234879709a2a07b061c05120f1268096fd85b5ccf14a970"
+      url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-linux-amd64.tar.gz"
+      sha256 "36b27d2a6ad0686fee22719c09826589d37575306975bdb41889b240cdaf5ed9"
     end
   end
 
