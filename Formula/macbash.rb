@@ -15,20 +15,20 @@ class Macbash < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-darwin-arm64.tar.gz"
-      sha256 "5639d49f11e0cfbc7c393e81b42d18ccaf982af3978506aef1c01f6fe1ebb96c"
+      sha256 "47454b93c5e4763cce8925492026bcf072ebe1d467f06139ff5182494d55ae48"
     else
       url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-darwin-amd64.tar.gz"
-      sha256 "f134dd1c83d5e52f594a19797015882c0197245102c0ced2df2b15dfc352a635"
+      sha256 "9d1c4514b1b6ce9655523299eca1957603ca26179453693564049d80c151f946"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-linux-arm64.tar.gz"
-      sha256 "a6191a0bc1c5d3735eaf6e59770f10dfec7101dbfc3d14cf942c507caa63a4d6"
+      sha256 "858b33a9a2939dcab97e42c6a32a8acbef3f098ce2a76b5ba5dbdf83fed642c2"
     else
       url "https://downloads.hyperi.io/macbash/v1.5.10/macbash-linux-amd64.tar.gz"
-      sha256 "1627ff6dd9aad93ec529f726392aad6cd62fcdb076a288aefa46106a543f6375"
+      sha256 "645c73f4dafaa9f189018200175d06cfd858117c9184de36f9703c7ff5ae4ca0"
     end
   end
 
