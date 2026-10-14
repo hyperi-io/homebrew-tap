@@ -25,10 +25,10 @@ class Macbash < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://downloads.hyperi.io/macbash/v1.5.11/macbash-linux-arm64.tar.gz"
-      sha256 "6ba774c2e6226876d92d1814b63e58a7822406cd08cb1380e6501d251615d778"
+      sha256 "6d172e0f9d63b163e38c8f89327ac9b591132be93e2d256d4a805f2c6be3bf6c"
     else
       url "https://downloads.hyperi.io/macbash/v1.5.11/macbash-linux-amd64.tar.gz"
-      sha256 "85ecde64d48f990ed10e98417bd81225818862dce6f98512e49211d49338c3ae"
+      sha256 "80ed180d4d292baca4437bec7ff1b058d960bc6d79d297f4e878edfbd86b3ec8"
     end
   end
 
